@@ -1,9 +1,11 @@
+import { A } from "@solidjs/router";
+
 function Dashboard() {
     return (<>
         <div className="flex justify-center items-center h-screen">
             <button
                 className="border-dashed border-2 border-gray-500 w-1/2 h-1/2"
-                onClick={() => document.getElementById("my_modal_3").showModal()}
+                onClick={() => document.getElementById("confirm_modal").showModal()}
             >
                 <i className="fa-solid fa-server text-6xl"></i>
                 <div className="h-8"></div>
@@ -11,16 +13,16 @@ function Dashboard() {
             </button>
         </div>
 
-        <dialog id="my_modal_3" className="modal">
+        <dialog id="confirm_modal" className="modal">
             <div className="modal-box">
                 <h3 className="font-bold text-lg">Confirmation</h3>
                 <p className="py-4">
                     Are you sure want to start quick setup process?
                 </p>
                 <div className="modal-action">
-                    <a href="/setup" className="btn btn-sm btn-success text-white">
+                    <A href="/setup/method" className="btn btn-sm btn-success text-white">
                         Continue
-                    </a>
+                    </A>
                     <form method="dialog">
                         <button className="btn btn-sm btn-error text-white">
                             Cancel
