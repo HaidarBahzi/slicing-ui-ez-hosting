@@ -20,8 +20,8 @@ function Methods() {
                             className="bg-gray-200 w-64 h-64 flex flex-col rounded justify-center items-center gap-5"
                             href="/setup/ez"
                         >
-                            <i className="fa-solid fa-server text-6xl"></i>
-                            <h3>Setup a new Service</h3>
+                            <i className="fa-brands fa-wordpress text-6xl"></i>
+                            <h3>Setup a new Wordpress Service</h3>
                         </A>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ function Methods() {
                             onClick={() => importFrom("Local Wordpress folder")}
                         >
                             <i className="fa-brands fa-wordpress text-3xl"></i>
-                            <h3 className="text-sm">Local Wordpress</h3>
+                            <h3 className="text-sm">Wordpress</h3>
                         </button>
                         <button
                             className="bg-gray-200 w-32 h-32 flex flex-col rounded justify-center items-center gap-5"
