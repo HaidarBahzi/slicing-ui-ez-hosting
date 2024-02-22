@@ -16,9 +16,9 @@ function EzSetup() {
         <>
             <div className="flex flex-col justify-center items-center 
         min-h-screen v-screen 
-        bg-gray-100 p-8">
+        bg-base-100 p-8">
                 <div
-                    className="shadow-md bg-white rounded-md w-3/5 p-8 flex flex-col justify-stretch gap-3"
+                    className="shadow-md bg-base-200 rounded-md w-3/5 p-8 flex flex-col justify-stretch gap-3"
                 >
                     <h1 className="text-4xl">New Wordpress setup wizard</h1>
                     <div className="flex flex-col max-w-full justify-stretch gap-3">
@@ -85,7 +85,7 @@ function EzSetup() {
                             </For>
                         </select>
                         <div className="card card-bordered flex flex-row items-center 
-                    h-28 shadow-md my-5 w-fit pr-4 gap-3">
+                    h-28 shadow-md my-5 w-fit pr-4 gap-3 overflow-hidden">
                             <img className="h-28 flex-auto" src={themes[imgSelected()]} alt="theme-alt" />
                             <h3 className="text-lg flex-auto" >{imgSelected()}</h3>
                         </div>

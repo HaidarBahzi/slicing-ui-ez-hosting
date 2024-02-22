@@ -1,9 +1,12 @@
 import { A } from "@solidjs/router";
 import { createSignal } from "solid-js";
 import LogsShuttle from "../logs-shuttle";
+import { setTheme, theme } from "../theme";
 
 function Dashboard() {
     let [sidebar, setSidebar] = createSignal(false);
+    console.log(theme());
+
     return (<>
         <div className="drawer drawer-open">
             <input id="sidebar" type="checkbox" className="drawer-toggle" checked={sidebar()} />
@@ -12,9 +15,21 @@ function Dashboard() {
                     <label
                         htmlFor="sidebar"
                         // onClick={() => setSidebar(true)}
-                        className="btn drawer-button">
+                        className="btn drawer-button flex-none">
                         <i class="fa-solid fa-bars"></i>
                     </label>
+                    <div className="flex-1"></div>
+                    <div class="dropdown flex-none">
+                        <div tabindex="0" role="button" class="btn m-1">
+                            Theme
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <ul tabindex="0" class="dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-28">
+                            <li><input type="radio" name="theme-dropdown" onChange={() => setTheme("corporate")} class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Light" value="corporate" /></li>
+                            <li><input type="radio" name="theme-dropdown" onChange={() => setTheme("business")} class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Dark" value="business" /></li>
+                            <li><input type="radio" name="theme-dropdown" onChange={() => setTheme("aqua")} class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Aqua" value="aqua" /></li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="p-4 flex flex-col h-min gap-10">
                     <h1 className="text-3xl font-semibold">Welcome, User</h1>
@@ -26,7 +41,7 @@ function Dashboard() {
                                     <p className="text-3xl font-semibold">Rp 1.000.000</p>
                                     <i class="fa-solid fa-money-bill text-4xl"></i>
                                 </div>
-                                <h2 className="text-md text-slate-600">Current month</h2>
+                                <h2 className="text-md opacity-70">Current month</h2>
                             </div>
                         </div>
                         <div className="card card-compact flex-1 bg-base-200 shadow-lg h-min w-64">
@@ -36,7 +51,7 @@ function Dashboard() {
                                     <p className="text-3xl font-semibold">62%</p>
                                     <i class="fa-solid fa-microchip text-4xl"></i>
                                 </div>
-                                <h2 className="text-md text-slate-600">Refresh every minute</h2>
+                                <h2 className="text-md opacity-70">Refresh every minute</h2>
                             </div>
                         </div>
                         <div className="card card-compact flex-1 bg-base-200 shadow-lg h-min w-64">
@@ -46,7 +61,7 @@ function Dashboard() {
                                     <p className="text-3xl font-semibold">14k</p>
                                     <i class="fa-solid fa-circle-nodes text-4xl"></i>
                                 </div>
-                                <h2 className="text-md text-slate-600">Refresh every day</h2>
+                                <h2 className="text-md opacity-70">Refresh every day</h2>
                             </div>
                         </div>
                     </div>

@@ -1,15 +1,16 @@
 import { A } from "@solidjs/router";
+import { theme } from "../theme";
 
 function Methods() {
     return (
         <>
-            <div className="min-h-screen flex items-center justify-center bg-gray-100">
-                <div className="bg-white p-8 shadow-md rounded-md">
+            <div className="min-h-screen flex items-center justify-center bg-base-100">
+                <div className="bg-base-200 p-8 shadow-md rounded-md">
                     <h1 className="text-2xl font-bold mb-4 text-center">Choose your Service setup method!</h1>
 
                     <div className="flex gap-5">
                         <button
-                            className="bg-gray-200 w-64 h-64 flex flex-col rounded justify-center items-center gap-5"
+                            className="bg-base-300 w-64 h-64 flex flex-col rounded justify-center items-center gap-5"
                             onClick={() => document.getElementById("import_modal").showModal()}
                         >
                             <i className="fa-solid fa-upload text-6xl"></i>
@@ -17,7 +18,7 @@ function Methods() {
                         </button>
 
                         <A
-                            className="bg-gray-200 w-64 h-64 flex flex-col rounded justify-center items-center gap-5"
+                            className="bg-base-300 w-64 h-64 flex flex-col rounded justify-center items-center gap-5"
                             href="/setup/ez"
                         >
                             <i className="fa-brands fa-wordpress text-6xl"></i>
@@ -43,21 +44,21 @@ function Methods() {
                     </p>
                     <div className="flex flex-row justify-around">
                         <button
-                            className="bg-gray-200 w-32 h-32 flex flex-col rounded justify-center items-center gap-5"
+                            className="bg-base-200 w-32 h-32 flex flex-col rounded justify-center items-center gap-5"
                             onClick={() => importFrom("Local Wordpress folder")}
                         >
                             <i className="fa-brands fa-wordpress text-3xl"></i>
                             <h3 className="text-sm">Wordpress</h3>
                         </button>
                         <button
-                            className="bg-gray-200 w-32 h-32 flex flex-col rounded justify-center items-center gap-5"
+                            className="bg-base-200 w-32 h-32 flex flex-col rounded justify-center items-center gap-5"
                             onClick={() => importFrom("Git Repository")}
                         >
                             <i className="fa-brands fa-git-alt text-3xl"></i>
                             <h3 className="text-sm">Git Repository</h3>
                         </button>
                         <button
-                            className="bg-gray-200 w-32 h-32 flex flex-col rounded justify-center items-center gap-5"
+                            className="bg-base-200 w-32 h-32 flex flex-col rounded justify-center items-center gap-5"
                             onClick={() => importFrom("Docker Container")}
                         >
                             <i className="fa-brands fa-docker text-3xl"></i>
