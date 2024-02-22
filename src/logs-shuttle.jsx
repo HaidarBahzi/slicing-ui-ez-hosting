@@ -246,7 +246,7 @@ export default () => (
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.649132Z [Deployer] INFO Starting deployment </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.649322Z [Deployer] INFO Entering Loading state </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.649325Z [Deployer] INFO Loading resources </code></pre>
-        <pre data-prefix=">"><code> 2024-02-21T03:49:57.649385Z [Deployer] INFO shuttle_service::runner: &#123;args = "/opt/shuttle/shuttle-builds/warp-shuttle-test/.shuttle-executables/e0f960fe-3e9c-4d7f-a41c-bafce029d890 --port 23089 --provisioner-address http://provisioner:8000/ --env production --auth-uri http://auth:8000/"&#125; Spawning runtime process </code></pre>
+        <pre data-prefix=">"><code> 2024-02-21T03:49:57.649385Z [Deployer] INFO shuttle_service::runner: &#123;args = "/opt/shuttle/shuttle-builds/warp-shuttle-test/.shuttle-executables/########-####-####-####-############ --port 23089 --provisioner-address http://provisioner:8000/ --env production --auth-uri http://auth:8000/"&#125; Spawning runtime process </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.649933Z [Deployer] INFO shuttle_proto::runtime: connecting runtime client </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.656864Z [Runtime] shuttle-runtime executable started (version 0.39.0) </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.656866Z [Runtime] =============================================================== </code></pre>
@@ -262,7 +262,7 @@ export default () => (
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.658701Z [Deployer] INFO shuttle_deployer::persistence: &#123;resources = "Ok([])"&#125; Local resources </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.659608Z [Runtime] TRACE shuttle_common::backends::auth: inserting public key from auth service into cache </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.659616Z [Runtime] TRACE shuttle_common::claims: converting token to claim </code></pre>
-        <pre data-prefix=">"><code> 2024-02-21T03:49:57.659766Z [Runtime] loading alpha service at /opt/shuttle/shuttle-builds/warp-shuttle-test/.shuttle-executables/e0f960fe-3e9c-4d7f-a41c-bafce029d890 </code></pre>
+        <pre data-prefix=">"><code> 2024-02-21T03:49:57.659766Z [Runtime] loading alpha service at /opt/shuttle/shuttle-builds/warp-shuttle-test/.shuttle-executables/########-####-####-####-############ </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.660436Z [Deployer] INFO shuttle_deployer::deployment::run: successfully loaded service </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.660468Z [Deployer] INFO shuttle_deployer::persistence: Uploading resources to resource-recorder </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.661022Z [Deployer] INFO Entering Running state </code></pre>
@@ -287,7 +287,7 @@ export default () => (
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.702225Z [Deployer] INFO Starting deployment </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.702367Z [Deployer] INFO Entering Loading state </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.702370Z [Deployer] INFO Loading resources </code></pre>
-        <pre data-prefix=">"><code> 2024-02-22T02:20:23.702428Z [Deployer] INFO shuttle_service::runner: &#123;args = "/opt/shuttle/shuttle-builds/warp-shuttle-test/.shuttle-executables/e0f960fe-3e9c-4d7f-a41c-bafce029d890 --port 16306 --provisioner-address http://provisioner:8000/ --env production --auth-uri http://auth:8000/"&#125; Spawning runtime process </code></pre>
+        <pre data-prefix=">"><code> 2024-02-22T02:20:23.702428Z [Deployer] INFO shuttle_service::runner: &#123;args = "/opt/shuttle/shuttle-builds/warp-shuttle-test/.shuttle-executables/########-####-####-####-############ --port 16306 --provisioner-address http://provisioner:8000/ --env production --auth-uri http://auth:8000/"&#125; Spawning runtime process </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.704043Z [Deployer] INFO shuttle_proto::runtime: connecting runtime client </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.721794Z [Runtime] shuttle-runtime executable started (version 0.39.0) </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.721795Z [Runtime] =============================================================== </code></pre>
@@ -303,7 +303,7 @@ export default () => (
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.723476Z [Deployer] INFO shuttle_deployer::persistence: &#123;resources = "Ok([])"&#125; Local resources </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.724433Z [Runtime] TRACE shuttle_common::backends::auth: inserting public key from auth service into cache </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.724439Z [Runtime] TRACE shuttle_common::claims: converting token to claim </code></pre>
-        <pre data-prefix=">"><code> 2024-02-22T02:20:23.724572Z [Runtime] loading alpha service at /opt/shuttle/shuttle-builds/warp-shuttle-test/.shuttle-executables/e0f960fe-3e9c-4d7f-a41c-bafce029d890 </code></pre>
+        <pre data-prefix=">"><code> 2024-02-22T02:20:23.724572Z [Runtime] loading alpha service at /opt/shuttle/shuttle-builds/warp-shuttle-test/.shuttle-executables/########-####-####-####-############ </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.725266Z [Deployer] INFO shuttle_deployer::deployment::run: successfully loaded service </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.725300Z [Deployer] INFO shuttle_deployer::persistence: Uploading resources to resource-recorder </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.725948Z [Deployer] INFO Entering Running state </code></pre>
