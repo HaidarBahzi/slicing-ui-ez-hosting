@@ -2,10 +2,10 @@ export default () => (
     <>
         <pre data-prefix=">"><code> 2024-02-21T03:48:23.114701Z [Deployer] INFO Starting deployment </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:48:23.117383Z [Deployer] INFO shuttle_deployer::handlers: Deployer version: 0.39.0 </code></pre>
-        <pre data-prefix=">"><code> 2024-02-21T03:48:23.117435Z [Deployer] INFO shuttle_deployer::handlers: Deployment ID: e0f960fe-3e9c-4d7f-a41c-bafce029d890 </code></pre>
-        <pre data-prefix=">"><code> 2024-02-21T03:48:23.117451Z [Deployer] INFO shuttle_deployer::handlers: Service ID: 01HQ4WEQYA3TFWD27DRM99FRP2 </code></pre>
+        <pre data-prefix=">"><code> 2024-02-21T03:48:23.117435Z [Deployer] INFO shuttle_deployer::handlers: Deployment ID: ########-####-####-####-############ </code></pre>
+        <pre data-prefix=">"><code> 2024-02-21T03:48:23.117451Z [Deployer] INFO shuttle_deployer::handlers: Service ID: ########################## </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:48:23.117464Z [Deployer] INFO shuttle_deployer::handlers: Service name: warp-shuttle-test </code></pre>
-        <pre data-prefix=">"><code> 2024-02-21T03:48:23.117474Z [Deployer] INFO shuttle_deployer::handlers: Project ID: 01HQ4WBDWMJE2MC27H9N0FDKE6 </code></pre>
+        <pre data-prefix=">"><code> 2024-02-21T03:48:23.117474Z [Deployer] INFO shuttle_deployer::handlers: Project ID: ########################## </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:48:23.117481Z [Deployer] INFO shuttle_deployer::handlers: Project name: warp-shuttle-test </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:48:23.117494Z [Deployer] INFO shuttle_deployer::handlers: Date: 2024-02-21T03:48:23Z </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:48:23.119734Z [Deployer] INFO Entering Queued state </code></pre>
@@ -257,7 +257,7 @@ export default () => (
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.656869Z [Runtime] shuttle-runtime = &#123;version = "...", default-features = false &#125; </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.656870Z [Runtime] =============================================================== </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.657036Z [Deployer] INFO shuttle_deployer::deployment::run: Loading resources </code></pre>
-        <pre data-prefix=">"><code> 2024-02-21T03:49:57.657075Z [Deployer] INFO shuttle_deployer::persistence: &#123;service_id = "01HQ4WEQYA3TFWD27DRM99FRP2"&#125; Getting resources from resource-recorder </code></pre>
+        <pre data-prefix=">"><code> 2024-02-21T03:49:57.657075Z [Deployer] INFO shuttle_deployer::persistence: &#123;service_id = "##########################"&#125; Getting resources from resource-recorder </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.658558Z [Deployer] INFO shuttle_deployer::persistence: Got no resources from resource-recorder </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.658701Z [Deployer] INFO shuttle_deployer::persistence: &#123;resources = "Ok([])"&#125; Local resources </code></pre>
         <pre data-prefix=">"><code> 2024-02-21T03:49:57.659608Z [Runtime] TRACE shuttle_common::backends::auth: inserting public key from auth service into cache </code></pre>
@@ -298,7 +298,7 @@ export default () => (
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.721799Z [Runtime] shuttle-runtime = &#123;version = "...", default-features = false &#125; </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.721799Z [Runtime] =============================================================== </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.721911Z [Deployer] INFO shuttle_deployer::deployment::run: Loading resources </code></pre>
-        <pre data-prefix=">"><code> 2024-02-22T02:20:23.721946Z [Deployer] INFO shuttle_deployer::persistence: &#123;service_id = "01HQ4WEQYA3TFWD27DRM99FRP2"&#125; Getting resources from resource-recorder </code></pre>
+        <pre data-prefix=">"><code> 2024-02-22T02:20:23.721946Z [Deployer] INFO shuttle_deployer::persistence: &#123;service_id = "##########################"&#125; Getting resources from resource-recorder </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.723319Z [Deployer] INFO shuttle_deployer::persistence: Got no resources from resource-recorder </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.723476Z [Deployer] INFO shuttle_deployer::persistence: &#123;resources = "Ok([])"&#125; Local resources </code></pre>
         <pre data-prefix=">"><code> 2024-02-22T02:20:23.724433Z [Runtime] TRACE shuttle_common::backends::auth: inserting public key from auth service into cache </code></pre>
