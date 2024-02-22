@@ -18,10 +18,10 @@ function EzSetup() {
         min-h-screen v-screen 
         bg-gray-100 p-8">
                 <div
-                    className="shadow-md bg-white rounded-md w-9/12 p-8 block gap-3"
+                    className="shadow-md bg-white rounded-md w-3/5 p-8 flex flex-col justify-stretch gap-3"
                 >
                     <h1 className="text-4xl">New Wordpress setup wizard</h1>
-                    <div className="flex flex-col justify-center max-w-min">
+                    <div className="flex flex-col max-w-full justify-stretch gap-3">
                         <label htmlFor="name">Name</label>
                         <input placeholder="Name" className="input input-bordered" type="text" name="name" id="" />
                         <label htmlFor="server-location">Server Location</label>
@@ -37,41 +37,44 @@ function EzSetup() {
                         <label htmlFor="plugins-search">Plugins</label>
                         <input onClick={() => window.open("https://wordpress.org/plugins/", "_blank").focus()} placeholder="Search"
                             className="input input-bordered" type="text" name="plugins-search" id="" />
-                        <table className="table">
-                            <thead>
-                                <tr>
-                                    <th>No.</th>
-                                    <th>Name</th>
-                                    <th>Description</th>
-                                    <th>Author</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <thead>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Akismet Anti-spam: Spam Protection</td>
-                                    <td>The best anti-spam protection to block spam comments and spam in a contact div.</td>
-                                    <td>Automattic - Anti-spam Team</td>
-                                    <td>
-                                        <a className="btn btn-warning me-2 btn-sm">Edit</a>
-                                        <a className="btn btn-error btn-sm">Delete</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Quiz Maker</td>
-                                    <td>
-                                        WordPress Quiz Plugin allows you to create advanced quizzes and exams easily and quickly.
-                                    </td>
-                                    <td>Quiz Maker team</td>
-                                    <td>
-                                        <a className="btn btn-warning me-2 btn-sm">Edit</a>
-                                        <a className="btn btn-error btn-sm">Delete</a>
-                                    </td>
-                                </tr>
-                            </thead>
-                        </table>
+                        <div className="overflow-x-auto">
+                            <table className="table table-xs max-w-full">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Name</th>
+                                        <th>Description</th>
+                                        <th>Author</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <thead>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Akismet Anti-spam: Spam Protection</td>
+                                        <td>The best anti-spam protection to block spam comments and spam in a contact div.</td>
+                                        <td>Automattic - Anti-spam Team</td>
+                                        <td>
+                                            <a className="btn btn-warning me-2 btn-sm">Edit</a>
+                                            <a className="btn btn-error btn-sm">Delete</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Quiz Maker</td>
+                                        <td>
+                                            WordPress Quiz Plugin allows you to create advanced quizzes and exams easily and quickly.
+                                        </td>
+                                        <td>Quiz Maker team</td>
+                                        <td>
+                                            <a className="btn btn-warning me-2 btn-sm">Edit</a>
+                                            <a className="btn btn-error btn-sm">Delete</a>
+                                        </td>
+                                    </tr>
+                                </thead>
+                            </table>
+
+                        </div>
                         <label htmlFor="themes">Theme</label>
                         <select name="themes" id="themes" className="select select-bordered"
                             onInput={(e) => setImgSelected(e.currentTarget.value)}>
